@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 exports.config = {
     
     //
@@ -42,7 +44,7 @@ exports.config = {
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-        maxInstances: 5,
+        maxInstances: 1,
         // browser
         //browserName: 'chrome'
         // note there is a binary option. like 'binary: 'google-chrome''
@@ -77,7 +79,7 @@ exports.config = {
     //
     // Set a base URL in order to shorten url command calls. If your url parameter starts
     // with "/", then the base url gets prepended.
-    baseUrl: 'http://localhost',
+    baseUrl: process.env.TEST_HOST,
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,

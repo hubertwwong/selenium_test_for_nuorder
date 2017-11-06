@@ -37,7 +37,7 @@ need to install the browsers
 selenium standalone start?
 I think this needs to be a global
 
-
+env setup.
 
 # chrome install
 
