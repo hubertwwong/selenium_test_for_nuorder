@@ -82,6 +82,9 @@ Possible impovements in my mind are:
 Probably can use the snapshot feature and replace the test section.
 I'm pretty sure you can use it to replace the "Page Object tests" part of the test with a much smaller test.
 
+Might be possible when this gets resolved.
+https://github.com/webdriverio/webdriverio/issues/2052
+
 ## 2. Using loops
 
 Might have reduce the amount of test cases. 
