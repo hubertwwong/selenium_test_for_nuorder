@@ -1,17 +1,16 @@
 # 1. Intro
 
-This is a simple demo on writing some selenium test for test site provided by NuOrder.
+This is a simple demo on writing some selenium test for a test site provided by NuOrder.
 
-The test are done using the Webdriver.io using the wdio test runner. Test are only done using google chrome with the headless option.
+The test are done using the Webdriver.io using the wdio test runner. Test are running on google chrome with the headless option.
 
-I created another repo with a virtual machine that can be used.
-
-
+I created another repo with a virtual machine that can be used. URL below.
+https://github.com/hubertwwong/ubuntu-16.04-selenium
 
 
 # 2. Requirements
 
-1. Java. Whatever version that is required to run selenium standalone.
+1. Java. Whatever version that is required to run selenium standalone. Java 8 is listed at the requirement for the most recent version.
 2. Node.js 6.x.x. I used the most recent LTS version which was 6.11.5.
 3. Chrome browser.
 4. Test site is up and running.
@@ -28,7 +27,6 @@ There is a post install hook here that install selenium-standalone. This assmues
 ## 2. modify .env
 
 Change the TEST_HOST variable and point it to the url of the website. I set it to 127.0.0.1:3000.
-
 
 ## 3. npm test
 
