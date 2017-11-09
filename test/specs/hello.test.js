@@ -12,7 +12,7 @@ describe("Home Page", () => {
     });
 
     describe("> Misc", () => {
-      it("> url", () => {
+      xit("> url", () => {
         expect(page.url).to.equal("http://192.168.33.10:3000/");
       });
 
